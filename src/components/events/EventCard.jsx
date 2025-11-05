@@ -20,7 +20,8 @@ import {
   Bookmark as BookmarkedIcon
 } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
-import { formatEventDate, formatEventTime, getCategoryColor, getCategoryIcon, truncateText } from '../../utils/helpers';
+import { formatEventDate, formatEventTime } from '../../utils/calendar';
+import { getCategoryColor, getCategoryIcon, truncateText } from '../../utils/helpers';
 import RSVPButton from './RSVPButton';
 
 const EventCard = ({ event, onRSVP, compact = false }) => {
