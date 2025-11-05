@@ -15,7 +15,8 @@ import {
   ChevronRight as ChevronRightIcon
 } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
-import { formatEventDate, getCategoryColor, getCategoryIcon, truncateText } from '../../utils/helpers';
+import { formatEventDate } from '../../utils/calendar';
+import { getCategoryColor, getCategoryIcon, truncateText } from '../../utils/helpers';
 
 const RecommendedCarousel = ({ events, title = 'Recommended Events' }) => {
   const theme = useTheme();
